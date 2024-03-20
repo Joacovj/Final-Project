@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- TODO: 
+Style-->
+<html>
+    <head>
+        <style>         
+        #footer{
+            background-color:antiquewhite;     
+            text-align: center;       
+        }
+        #mark{
+            text-align: left;
+            font-style:oblique;
+            color: red;
+        }
+        .navegation-menu{
+            text-align: left;
+        }
+        .body{
+            background-color: rgb(250, 235, 215);
+        }     
+        #header-img{
+            border-style:ridge;
+        }
+        </style>
+        
+        <title>The Burguer Empire</title>
+    </head>
+    <body class="body">
+        <header>
+            <img src="https://photosonic.s3.amazonaws.com/8c80a7c7-7b87-4f6a-95ce-da675d77195f.png" 
+            id="header-img"           
+            alt="Mr. Vader Eating Burguers"
+            width="300">
+            <h1 id="mark"><b>The Burguer Empire</b></h1>
+            <nav>
+                <a href="#menu">Menu</a>
+                <a href="#order-form">Place your Order</a>
+            </nav>   
+        </header> 
+
+        <main>
+            <section>
+                <h2 id="menu">Menu</h2>                
+                <article>
+                    <figure>
+                        <h3>Simple Cheeseburguer with Fries</h3> 
+                        <img src="https://s23209.pcdn.co/wp-content/uploads/2022/07/220602_DD_The-Best-Ever-Cheeseburger_267.jpg" 
+                        width="200"
+                        height="250"
+                        alt="Simple Cheesburguer">                    
+                        <p>Bread, medallion of meat 110gr, cheddar, cheesburguer sauce, onion, lettuce and tomato + fries. 
+                            <br><i>$5.04</i></p>                   
+                    </figure>
+            </article>
+
+                <article>
+                    <figure>
+                        <h3>Big Lomito with Fries</h3>
+                        <img src="https://www.circuitogastronomico.com/wp-content/uploads/2023/04/pizzar-lomito-2.jpg"
+                        width="300"
+                        height="250" 
+                        alt="Big Lomito with Fries">
+                        <p>Big lomito with ham, cheese, tomato, lettuce, fried egg, homemade mayo + fries.
+                            <br><i>$6,31</i>
+                        </p>
+                    </figure>
+            </article>
+
+                <article>
+                    <figure>
+                        <h3>Fries with Cheddar and Bacon</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPIvWBk_gsLxVmwDbd7nnKIRXgM1YeYHBtLw&usqp=CAU" 
+                        alt="Fries with Cheddar and Bacon">
+                        <p>Cheddar, crunchy bacon and fresh chives. 
+                            <br><i>$7,28</i>
+                        </p>
+                    </figure>
+            </article>
+            </section>   
+
+            <section>
+                <h2 id="order-form">Place Your Order</h2>
+                <form>
+                    <label for="burguer"> <b>Simple Cheeseburguer with Fries</b>  </label><input type="number" min="0" id="burguer"> 
+                    <br>
+                    <label for="add-ons"><i>Add-ons</i>  </label><input type="checkbox" id="add-ons"> Ketchup <input type="checkbox"> Mayonnaise 
+                    <br> <br>
+
+                    <label for="lomito"><b>Big Lomito with Fries</b>  </label><input type="number" min="0" id="lomito"> 
+                    <br>
+                    <label for="add-ons"><i>Add-ons</i>  </label><input type="checkbox" id="add-ons"> Ketchup <input type="checkbox"> Mayonnaise 
+                    <br> <br>
+                    <textarea name="Lomito" cols="30" rows="10" placeholder="Doneness of the meat or extra requests."></textarea>
+                    <br> <br>
+
+                    <label for="fries-bacon"><b>Fries with Cheddar and Bacon</b>  </label><input type="number" min="0" id="fries-bacon">
+                    <br>
+                    <label for="add-ons"><i>Add-ons</i>  </label><input type="checkbox" id="add-ons"> Ketchup <input type="checkbox"> Mayonnaise <input type="checkbox"> Hot Sauce
+                    <br> <br>
+                    <input type="submit" value="Go To Checkout">
+                </form>
+            </section>            
+        </main>
+
+        <footer id="footer">
+            <p>Made with love by <i>Sakran</i></p>
+        </footer>
+    </body>
+</html>
