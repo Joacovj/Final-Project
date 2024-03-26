@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- TODO: 
-Style-->
 <html>
     <head>
         <style>         
@@ -82,21 +80,39 @@ Style-->
             <section>
                 <h2 id="order-form">Place Your Order</h2>
                 <form>
-                    <label for="burguer"> <b>Simple Cheeseburguer with Fries</b>  </label><input type="number" min="0" id="burguer"> 
-                    <br>
-                    <label for="add-ons"><i>Add-ons</i>  </label><input type="checkbox" id="add-ons"> Ketchup <input type="checkbox"> Mayonnaise 
+                    <label for="burguer"> <b>Simple Cheeseburguer with Fries</b>  </label>
+                    <input type="number" min="0" id="burguer"> 
+                    <br><br>
+                    <i>Add-ons: </i>
+                    
+                    <input type="checkbox" id="ketchup-burg"> 
+                    <label for="ketchup-burg">Ketchup </label>
+                    <input type="checkbox" id="mayo-bur"> 
+                    <label for="mayo-bur">Mayonnaise </label>
                     <br> <br>
 
-                    <label for="lomito"><b>Big Lomito with Fries</b>  </label><input type="number" min="0" id="lomito"> 
-                    <br>
-                    <label for="add-ons"><i>Add-ons</i>  </label><input type="checkbox" id="add-ons"> Ketchup <input type="checkbox"> Mayonnaise 
+                    <label for="lomito"><b>Big Lomito with Fries</b> </label>
+                    <input type="number" min="0" id="lomito"> 
+                    <br><br>
+                    <i>Add-ons: </i> 
+
+                    <input type="checkbox" id="ketchup-lom"> 
+                    <label for="ketchup-lom">Ketchup </label>
+                    <input type="checkbox" id="mayo-lom"> 
+                    <label for="mayo-lom">Mayonnaise </label>
                     <br> <br>
                     <textarea name="Lomito" cols="30" rows="10" placeholder="Doneness of the meat or extra requests."></textarea>
                     <br> <br>
 
-                    <label for="fries-bacon"><b>Fries with Cheddar and Bacon</b>  </label><input type="number" min="0" id="fries-bacon">
-                    <br>
-                    <label for="add-ons"><i>Add-ons</i>  </label><input type="checkbox" id="add-ons"> Ketchup <input type="checkbox"> Mayonnaise <input type="checkbox"> Hot Sauce
+                    <label for="fries-bacon"><b>Fries with Cheddar and Bacon</b> </label>
+                    <input type="number" min="0" id="fries-bacon">
+                    <br><br>
+                    <i>Add-ons: </i> 
+
+                    <input type="checkbox" id="ketchup-fries"> 
+                    <label for="ketchup-fries">Ketchup </label>
+                    <input type="checkbox" id="mayo-fries"> 
+                    <label for="mayo-fries">Mayonnaise </label>
                     <br> <br>
                     <input type="submit" value="Go To Checkout">
                 </form>
